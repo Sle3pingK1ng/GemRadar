@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/d8bb7fb69c.js" crossorigin="anonymous"></script>
+    <!-- BootStrap script -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">   
+    <!-- own style sheet -->
+    <link rel="script" href="main.js">
+    <!-- css stles sheetheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Contact Us</title>
+</head>
+<body>
+    <section id="title">
+        <div class="container-fluid">
+    
+            <!-- Nav Bar -->
+            <nav class="navbar sticky-top navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand nav-bar-logo" href="index.html">Gem Radar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>  
+                </button>  
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">    
+                  <ul class="navbar-nav ms-auto">  
+
+                    <li class="nav-item">  
+                      <a class="nav-link" href="index.html">Home</a>  
+                    </li> 
+
+                    <li class="nav-item">  
+                      <a class="nav-link" href="Services.html">Services</a>  
+                    </li> 
+
+                    <li class="nav-item">  
+                      <a class="nav-link" href="Project.html">Project</a>  
+                    </li> 
+
+                    <li class="nav-item">  
+                      <a class="nav-link" href="Contact.html">Contact</a>  
+                    </li>      
+            
+                  </ul>  
+              </div>
+          
+              </div>
+          
+            </nav>
+    </section>
+<hr>
+
+<section>    
+    <div class="contact-title">
+      <h1>Get in touch with us</h1>
+    </div>
+
+    <div class="contact-detail">
+        <p class="contact-description"><h5>Gem Radar</h5>has helped many companies and enterprise to improve operational efficiency and save cost</p>  
+        <p class="contact-description">If you have any question email us<h5> @ Gemradarltd@gmail.com.</h5></p>          
+        <h3 class="contact-description">Tel: 000 0000 0000</h3>
+      </div>
+    </div>
+</section>
+
+<section class="contact-form">
+    <div class="container">
+        <form action="https://formspree.io/f/xpznrbal" method="POST" id="my-form"> 
+            <div class="mb-3">
+                <label for="FormControlTextarea1 username" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="FormControlTextarea1" placeholder="John Stone" required>
+            </div>
+            <div class="mb-3">
+                <label for="FormControlInput1" class="form-label">Email address</label>
+                <input name="email" type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com" required>
+            </div>
+            <div class="mb-auto">
+                <label for="FormControlTextarea1" class="form-label">Small Description of Service request</label>
+                <textarea name="message" class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-auto send-button">
+                <button href="" type="submit" class="btn btn-primary mb-3" >Submit</button>
+            </div>
+            <div id="status" class="error"></div>
+        </form>
+    </div>
+</section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>    
+
+</html>
