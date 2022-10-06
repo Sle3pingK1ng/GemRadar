@@ -60,7 +60,7 @@ a {
 }
 
 .nav-link, .navbar-brand {
-    text-shadow: 1px 1px var(--rosery); 
+    text-shadow: 1px 1px var(--glow); 
     font-size: 25px;
 }
 
